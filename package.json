@@ -41,6 +41,7 @@
   },
   "homepage": "https://lukasz-galka.github.io/ngx-gallery-demo",
   "devDependencies": {
+    "@angular/cli": "^10.0.7",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
