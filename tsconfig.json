@@ -10,5 +10,9 @@
         ],
         "skipLibCheck": true,
         "types": []
+    },
+    "angularCompilerOptions": {
+        "enableIvy": false,
+        "fullTemplateTypeCheck": true
     }
 }
