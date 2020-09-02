@@ -1,15 +1,38 @@
 {
-  "name": "ngx-gallery",
-  "description": "Responsive Angular 2 / 4 image gallery plugin",
-  "version": "5.10.0",
-  "repository": {
+  "_from": "github:vanand-conga/apttus-gallery",
+  "_id": "ngx-gallery@5.10.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ngx-gallery",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/lukasz-galka/ngx-gallery"
+    "raw": "ngx-gallery@github:vanand-conga/apttus-gallery",
+    "name": "ngx-gallery",
+    "escapedName": "ngx-gallery",
+    "rawSpec": "github:vanand-conga/apttus-gallery",
+    "saveSpec": "github:vanand-conga/apttus-gallery",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:vanand-conga/apttus-gallery#b2aa9527203402ee44709ee98cbc2825810c8d70",
+  "_spec": "ngx-gallery@github:vanand-conga/apttus-gallery",
+  "_where": "/Users/VijayaAnand/Apttus/Git/ecommerce-core/resources",
   "author": {
     "name": "Łukasz Gałka",
     "email": "lukasz.galka@intive.com"
   },
+  "bugs": {
+    "url": "https://github.com/lukasz-galka/ngx-gallery/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Responsive Angular 2 / 4 image gallery plugin",
+  "homepage": "https://lukasz-galka.github.io/ngx-gallery-demo",
+  "jsnext:main": "ngx-gallery.js",
   "keywords": [
     "ngx",
     "angular",
@@ -22,12 +45,21 @@
     "preview"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lukasz-galka/ngx-gallery/issues"
-  },
-  "homepage": "https://lukasz-galka.github.io/ngx-gallery-demo",
   "main": "bundles/ngx-gallery.umd.js",
   "module": "ngx-gallery.js",
-  "jsnext:main": "ngx-gallery.js",
-  "typings": "ngx-gallery.d.ts"
+  "name": "ngx-gallery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-galka/ngx-gallery.git"
+  },
+  "typings": "ngx-gallery.d.ts",
+  "version": "5.10.0",
+  "__processed_by_ivy_ngcc__": {
+    "main": "10.0.14",
+    "module": "10.0.14",
+    "typings": "10.0.14"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
 }

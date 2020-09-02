@@ -1,5 +1,4 @@
 import { ElementRef, Renderer2 } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class NgxGalleryHelperService {
     private renderer;
     private swipeHandlers;
@@ -9,8 +8,4 @@ export declare class NgxGalleryHelperService {
     getBackgroundUrl(image: string): string;
     private getSwipeHandlers;
     private removeSwipeHandlers;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryHelperService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<NgxGalleryHelperService>;
 }
-
-//# sourceMappingURL=ngx-gallery-helper.service.d.ts.map
